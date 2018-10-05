@@ -1,4 +1,4 @@
-# dhi-components
+# dhi-react-components
 
 [![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]

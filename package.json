@@ -1,7 +1,7 @@
 {
-  "name": "dhi-components",
+  "name": "dhi-react-components",
   "version": "1.0.0",
-  "description": "dhi-components React component",
+  "description": "dhi-react-components library",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -19,12 +19,27 @@
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server"
   },
-  "dependencies": {},
+  "dependencies": {
+    "styled-components": "^3.4.9"
+  },
   "peerDependencies": {
     "react": "16.x"
   },
   "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "eslint": "^5.6.1",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-config-react-app": "^3.0.3",
+    "eslint-plugin-flowtype": "^2.50.3",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "expect": "^23.6.0",
     "nwb": "0.23.x",
+    "prettier": "^1.14.3",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
   },
